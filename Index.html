@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarah's Archive | Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="brand">SARAH_ARCHIVE // 01</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="shelf-container">
+        <div class="bookshelf">
+            <a href="#about" class="book"><span class="spine-text">The_Origin</span></a>
+            <a href="#education" class="book" style="height: 180px;"><span class="spine-text">Education</span></a>
+            <a href="#projects" class="book"><span class="spine-text">Code_Vault</span></a>
+            <a href="#research" class="book" style="height: 180px;"><span class="spine-text">Papers</span></a>
+            <a href="#contact" class="book"><span class="spine-text">Secure_Channel</span></a>
+            <a href="docs/SarahEid_CV.pdf" download="SarahEid_CV.pdf" class="book book-horizontal">
+                <span class="spine-text-horizontal">DOWNLOAD_CV</span>
+            </a>
+        </div>
+    </div>
+
+    <section id="about" class="content-section">
+        <h2>01. ABOUT_ME</h2>
+        <p>I’m <span style="color: var(--bright-red);">Sarah Eid</span>, a Senior Computer Science student at Effat University with a strong focus on cybersecurity, alongside a growing interest in AI-assisted analysis.</p>
+        <p>This portfolio serves as a <span style="color: var(--bright-red);">curated digital archive</span> of my technical work, research, and ongoing development.</p>
+        
+        <h3>Core Skills:</h3>
+        <div class="skills-grid">
+            <div class="skill-tag">PROJECT MANAGEMENT</div>
+            <div class="skill-tag">NETWORK SECURITY</div>
+            <div class="skill-tag">LINUX ARCHITECTURE</div>
+            <div class="skill-tag">CISCO NETWORKING</div>
+            <div class="skill-tag">DATA ENGINEERING</div>
+            <div class="skill-tag">ENCRYPTION</div>
+            <div class="skill-tag">SQL</div>
+            <div class="skill-tag">PYTHON</div>
+            <div class="skill-tag">C++</div>
+            <div class="skill-tag">JAVA</div>
+        </div>
+    </section>
+
+    <section id="education" class="content-section">
+        <h2>02. ACADEMIC_TIMELINE</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <span class="timeline-date">2022 — PRESENT</span>
+                <div class="timeline-title">Bachelor of Computer Science</div>
+                <div class="timeline-location">Effat University - Saudi Arabia</div>
+            </div>
+            
+            <div class="timeline-item">
+                <span class="timeline-date">2018 — 2022</span>
+                <div class="timeline-title">High-School Diploma</div>
+                <div class="timeline-location">Al-Kon Al-Motawara International School - Saudi Arabia</div>
+            </div>
+
+            <div class="timeline-item">
+                <span class="timeline-date">2016 — 2017</span>
+                <div class="timeline-title">Secondary Education</div>
+                <div class="timeline-location">Callaghan College Wallsend Campus - Australia</div>
+            </div>
+
+            <div class="timeline-item">
+                <span class="timeline-date">2014 — 2016</span>
+                <div class="timeline-title">Secondary Education</div>
+                <div class="timeline-location">Bishop Tyrrell Anglican College - Australia</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="content-section">
+        <h2>03. PROJECT_SHELF</h2>
+        <div class="grid-layout">
+            <a href="https://github.com/sarah-eid/student-employability-salary-prediction" target="_blank" class="card">
+                <h3>Student Employability & Salary Prediction Using Machine Learning</h3>
+                <p>A comprehensive machine learning project that predicts student placement outcomes and salary ranges based on academic performance, work experience, and other key factors. This research provides data-driven insights for students, educational institutions, and employers in the Saudi Arabian context.</p>
+                <div class="card-footer">
+                    <span class="skill-tag">Data Analysis</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Jupyter Notebook</span>
+                </div>
+            </a>
+            <a href="https://github.com/sarah-eid/data-structures-algorithms-project" target="_blank" class="card">
+                <h3>Advanced Algorithmic Solutions for Data Structures & Problems</h3>
+                <p>A comprehensive collection of algorithmic solutions to three complex data structure problems involving trees, graphs, and range queries. This project demonstrates advanced problem-solving skills and efficient implementation techniques for handling large-scale constraints.</p>
+                <div class="card-footer">
+                    <span class="skill-tag">Data Structures</span>
+                    <span class="skill-tag">Algorithms</span>
+                    <span class="skill-tag">Java</span>
+                </div>
+            </a>
+            <a href="https://github.com/sarah-eid/java-oop-ordering-system" target="_blank" class="card">
+                <h3>Restaurant Ordering System Using Java OOP</h3>
+                <p>An object-oriented restaurant ordering system built in Java. The project models real-world ordering and billing workflows using clean OOP principles, including encapsulation and separation of responsibilities. It handles menu items, order management, bill calculation, and payment processing through a console-based interface.</p>
+                <div class="card-footer">
+                    <span class="skill-tag">Object Oriented Programming</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">Ordering System</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="research" class="content-section">
+        <h2>04. RESEARCH_PAPERS</h2>
+        <div class="grid-layout">
+            <a href="https://www.researchgate.net/publication/399226311_Student_Employability_and_Salary_Prediction_Using_Machine_Learning_A_Comprehensive_Analysis" target="_blank" class="card">
+                <h3>Student Employability and Salary Prediction Using Machine Learning: A Comprehensive Analysis</h3>
+                <p>This paper develops and compares machine learning models to predict two critical outcomes for university students: employability (the likelihood of securing a job) and expected starting salary.</p>
+                <p>The study integrates multiple datasets—campus placement records, industry salary benchmarks, and a global developer survey—to create a comprehensive predictive framework for the Saudi Arabian labor market, which is a key focus of the national Vision 2030 transformation.</p>
+            </a>
+            <a href="https://www.researchgate.net/publication/399285209_Strengthening_IoT_Security_A_Comprehensive_Approach_to_Zero_Trust_Implementation" target="_blank" class="card">
+                <h3>Strengthening IoT Security: A Comprehensive Approach to Zero Trust Implementation</h3>
+                <p>This research examines how Zero Trust Architecture (ZTA) can enhance security in Internet of Things (IoT) ecosystems. As IoT devices proliferate across healthcare, smart cities, and enterprise systems, traditional perimeter-based security models have become inadequate against modern cyber threats.</p>
+                <p>This study evaluates ZTA implementation strategies, including continuous authentication, least privilege access, and micro-segmentation, to address critical vulnerabilities in IoT networks.</p>
+            </a>
+            <a href="https://www.researchgate.net/publication/399266150_A_Comprehensive_Study_of_Security_Mechanisms_in_Software_Engineering" target="_blank" class="card">
+                <h3>A Comprehensive Study of Security Mechanisms in Software Engineering</h3>
+                <p>A comprehensive literature review analyzing how embedding security mechanisms like static analysis, threat modeling, and DevSecOps throughout the Software Development Life Cycle (SDLC) reduces vulnerabilities.</p>
+                <p>The paper identifies key practices, evaluates their effectiveness, and highlights critical research gaps in empirical validation and organizational factors.</p>
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="content-section">
+        <h2>05. CONTACT_INTERFACE</h2>
+        <p>Email: <span style="color: var(--bright-red);">eid.sarah11@gmail.com</span></p>
+    
+        <p>LinkedIn: 
+            <a href="https://www.linkedin.com/in/sarah-eid-1a559332b" target="_blank" style="color: var(--bright-red); text-decoration: none;">
+            in/sarah-eid-1a559332b
+         </a>
+         </p>
+    
+        <p>Github: 
+            <a href="https://github.com/sarah-eid" target="_blank" style="color: var(--bright-red); text-decoration: none;">
+            github.com/sarah-eid
+            </a>
+        </p>
+    
+        <p>Phone: <span style="color: var(--bright-red);">+966 55 667 9051</span></p>
+    </section>
+
+    <footer>
+        SARAH_ARCHIVE // DIGITAL BOOKMARK // © 2022
+    </footer>
+
+</body>
+</html>
