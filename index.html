@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sarah's Archive | Portfolio</title>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico">
 </head>
 <body>
 
@@ -32,24 +33,52 @@
         </div>
     </div>
 
+    <div class="archive-connector"></div>
+
+    <div class="archive-welcome">
+        <p><span class="bracket">[</span> WELCOME_TO_MY_ARCHIVE <span class="bracket">]</span></p>
+    </div>
+
+
     <section id="about" class="content-section">
         <h2>01. ABOUT_ME</h2>
         <p>I’m <span style="color: var(--bright-red);">Sarah Eid</span>, a Senior Computer Science student at Effat University with a strong focus on cybersecurity, alongside a growing interest in AI-assisted analysis.</p>
         <p>This portfolio serves as a <span style="color: var(--bright-red);">curated digital archive</span> of my technical work, research, and ongoing development.</p>
         
-        <h3>Core Skills:</h3>
-        <div class="skills-grid">
-            <div class="skill-tag">PROJECT MANAGEMENT</div>
-            <div class="skill-tag">NETWORK SECURITY</div>
-            <div class="skill-tag">LINUX ARCHITECTURE</div>
-            <div class="skill-tag">CISCO NETWORKING</div>
-            <div class="skill-tag">DATA ENGINEERING</div>
-            <div class="skill-tag">ENCRYPTION</div>
-            <div class="skill-tag">SQL</div>
-            <div class="skill-tag">PYTHON</div>
-            <div class="skill-tag">C++</div>
-            <div class="skill-tag">JAVA</div>
+
+        <h3 style="margin-top: 3rem;">Technical Arsenal:</h3>
+        <div class="tech-grid">
+            <div class="tech-category">
+                <div class="tech-header">LANGUAGES</div>
+                <div class="tech-list">
+                    <span>Python</span>
+                    <span>C++</span>
+                    <span>Java</span>
+                    <span>SQL</span>
+                </div>
+            </div>
+
+            <div class="tech-category">
+                <div class="tech-header">SECURITY_&_NETWORKING</div>
+                <div class="tech-list">
+                    <span>Cisco Networking</span>
+                    <span>Zero Trust Architecture</span>
+                    <span>Digital Safety</span>
+                    <span>Encryption</span>
+                </div>
+            </div>
+
+            <div class="tech-category">
+                <div class="tech-header">DATA_&_ALGORITHMS</div>
+                <div class="tech-list">
+                    <span>Data Structures</span>
+                    <span>Algorithm Analysis</span>
+                    <span>Text Retrieval</span>
+                    <span>Machine Learning</span>
+                </div>
+            </div>
         </div>
+
     </section>
 
     <section id="education" class="content-section">
@@ -93,6 +122,25 @@
                     <span class="skill-tag">Jupyter Notebook</span>
                 </div>
             </a>
+
+            <a href="https://github.com/sarah-eid/watchlist-roulette" target="_blank" class="card">
+                <h3>Watchlist Roulette: Random Movie Selector</h3>
+                <p>Watchlist Roulette is a user-friendly tool that randomly selects a movie from your Letterboxd watchlist, enhancing the choice with metadata via the OMDb API. It also offers AI-powered recommendations for similar films based on plot summaries. Developed using Streamlit and Python, it transforms decision paralysis into enjoyable exploration.</p>
+                <div class="card-footer">
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">Algorithms</span>
+                    <span class="skill-tag">Java</span>
+                </div>
+            </a>
+            <a href="https://github.com/sarah-eid/CS3093-crypto-network-security-final-project" target="_blank" class="card">
+                <h3>Traffic Capture and Security Analysis Using Wireshark</h3>
+                <p>This project focuses on setting up a safe virtual lab environment, capturing network traffic using Wireshark, and analyzing TCP/IP, HTTP, and web application behavior in a vulnerable web application (OWASP Juice Shop). The goal is to identify common security issues such as plaintext credentials, exposed session tokens, and lack of encryption.</p>
+                <div class="card-footer">
+                    <span class="skill-tag">Network Traffic Analysis</span>
+                    <span class="skill-tag">Wireshark</span>
+                    <span class="skill-tag">Cybersecurity</span>
+                </div>
+            </a>
             <a href="https://github.com/sarah-eid/data-structures-algorithms-project" target="_blank" class="card">
                 <h3>Advanced Algorithmic Solutions for Data Structures & Problems</h3>
                 <p>A comprehensive collection of algorithmic solutions to three complex data structure problems involving trees, graphs, and range queries. This project demonstrates advanced problem-solving skills and efficient implementation techniques for handling large-scale constraints.</p>
@@ -132,6 +180,11 @@
                 <p>A comprehensive literature review analyzing how embedding security mechanisms like static analysis, threat modeling, and DevSecOps throughout the Software Development Life Cycle (SDLC) reduces vulnerabilities.</p>
                 <p>The paper identifies key practices, evaluates their effectiveness, and highlights critical research gaps in empirical validation and organizational factors.</p>
             </a>
+            <a href="https://www.researchgate.net/publication/400336301_Innovations_in_Biometric_Security_A_Comprehensive_Review" target="_blank" class="card">
+                <h3>Innovations in Biometric Security: A Comprehensive Review</h3>
+                <p>A comprehensive literature review examining the development, implementation, and challenges of biometric authentication technologies that use physiological and behavioral characteristics for identity verification across governmental and commercial sectors.</p>
+                <p>The paper analyzes various biometric modalities, addresses challenges including spoofing vulnerabilities and privacy concerns, and identifies critical research gaps in anti-spoofing mechanisms, privacy-preserving frameworks, and inclusive system design.</p>
+            </a>
         </div>
     </section>
 
@@ -155,7 +208,7 @@
     </section>
 
     <footer>
-        SARAH_ARCHIVE // DIGITAL BOOKMARK // © 2022
+        SARAH_ARCHIVE // DIGITAL BOOKMARK // © 2026
     </footer>
 
 </body>
