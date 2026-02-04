@@ -251,10 +251,9 @@
             font-family: monospace;
         }
 
-
         footer { text-align: center; padding: 60px; font-size: 0.7rem; color: #444; letter-spacing: 2px; }
 
- /* --- Technical Arsenal Grid --- */
+        /* --- Technical Arsenal Grid --- */
 .tech-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -304,18 +303,19 @@
 
 .archive-welcome {
     text-align: center;
-    margin: 40px 0; 
+    margin: 40px 0; /* Creates space above and below the text */
     padding: 20px;
 }
 
 .archive-welcome p {
-    color: var(--bright-red); 
+    color: var(--bright-red); /* Uses your bright red variable */
     font-family: monospace;
     font-size: 1.5rem;
     font-weight: bold;
-    letter-spacing: 5px; 
+    letter-spacing: 5px; /* Spreads the letters for that high-tech look */
     text-transform: uppercase;
-    text-shadow: 0 0 8px rgba(211, 47, 47, 0.4); 
+    text-shadow: 0 0 8px rgba(211, 47, 47, 0.4); /* Subtle red glow */
 }
+
 
 
